@@ -1,0 +1,64 @@
+body{
+    margin: 5%;
+    background-color: #0E1116   ;
+    color: #ffff;
+}
+#topic1{
+    z-index: 10;
+    background-color: #374A67;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#comment1{
+    z-index: 10;
+    background-color: #616283;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#comment2{
+    z-index: 10;
+    background-color: #9E7B9B;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#text1{
+    background-color: #374A67;
+    color: #ffff;
+    border-radius: 80px;
+    font-size: 40px;
+    text-align: center;
+    text-justify: center;
+    overflow: hidden;
+}
+.header{
+    text-align: center;
+}
+.postbut{
+    background-color: #CB9CF2;
+    border: none;
+    border-radius: 80px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.clearbut{
+    background-color: #9E7B9B;
+    border-radius: 80px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.text{
+    color: #ffff;
+}

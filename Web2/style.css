@@ -1,0 +1,17 @@
+body
+{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+.flex_c
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flex_c > div
+{
+    border: 2px solid turquoise;
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

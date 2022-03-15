@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+body
+{
+    /*background: linear-gradient(315deg, #8cd5ff 0%, #ffe9fa 74%);*/
+    background-color: blanchedalmond;
+    line-height: 1.5;
+}
+#pic
+{  
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: auto;
+    max-height: 300px;
+}
+.headtext
+{   max-height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px;
+    font-size: 32px;
+    inline-size: 50px;
+    writing-mode: horizontal-tb;
+    color: black;
+    min-width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.flex_container
+{
+    min-width: 0px;
+    width :80%;
+    max-height: 20%;
+
+    border: 2px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#mypic
+{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    width: auto;
+
+    
+}
+/*.flex_container > div
+{
+
+    border: 2px solid turquoise;
+    margin: 0px; 
+
+}*/
+
+#mypic2
+{/*    margin-right: 50px; */
+    width: 400px;
+    height:100%;
+    align-content: center;
+
+}
+
+#mypic3
+{  
+    margin : 25px;
+    margin-right: 50px;
+    height: 500px;
+    /*width: 25%;*/
+    float: right;
+}
+
+
+.headul
+{
+    color: blueviolet;
+}
+ul >.headul
+{
+    color: wheat;
+}
+
+.columnimage {
+    /* float:left;
+    width: 30%;
+    padding-top: 10px;
+    padding-left:50px;
+     */
+     height:600px;
+     float: left;
+     width: 33.33%;
+     padding-right: 10px;
+   width: 300px;
+   padding-right:500px;
+   margin-left: 70px;
+  }
+  .columntext {
+    height:600px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+
+    background-color:#d9e6ff;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

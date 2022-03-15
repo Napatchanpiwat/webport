@@ -1,0 +1,15 @@
+p
+{
+    font-size: 30px;
+    color: #d62b1d;
+}
+h2
+{
+    background-color: #1fdd98;
+}
+#pic
+{
+    width: 25%;
+    float: right;
+    clear: right;
+}
